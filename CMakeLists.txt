@@ -3,4 +3,5 @@ project(Test)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Test linearTable/link.cpp)
+add_executable(link linearTable/link.cpp)
+add_executable(stack stack/stack.cpp)
