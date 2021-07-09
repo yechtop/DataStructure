@@ -42,7 +42,7 @@ void end_insert(LinkList &first, int values[]) {
     }
 }
 
-// index 以 0 开始
+// getStrIndex 以 0 开始
 void insert_link(LinkList &first, int index, int insertValue){
     LinkList *p = get_pre_node(first, index);
     LinkList *insertNode = (LinkList *) malloc(sizeof(LinkList));
